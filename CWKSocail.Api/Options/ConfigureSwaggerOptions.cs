@@ -10,8 +10,10 @@ namespace CWKSocail.Api.Options
 
 		private readonly IApiVersionDescriptionProvider _provider;
 
-
-
+		public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider)
+		{
+			_provider = provider;
+		}
 
 		public void Configure(SwaggerGenOptions options)
 		{
