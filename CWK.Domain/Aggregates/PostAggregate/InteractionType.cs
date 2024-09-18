@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CWK.Domain.Models
+namespace CWK.Domain.Aggregates.Post
 {
-	public class Post
-
+	public enum InteractionType
 	{
-		public int Id { get; set; }  
-	  	public string Text { get; set; }
-
+    Like ,
+	Dislike ,
+	Hahahaha,
+	Wow,
+	Love,
+	Angry,
 	}
 }
