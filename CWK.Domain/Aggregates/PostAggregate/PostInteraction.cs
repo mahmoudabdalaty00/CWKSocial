@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,7 @@ namespace CWK.Domain.Aggregates.Post
             
         }
 
-
+	 
         public Guid PostInteractionId { get;private set; }
 		public Guid PostId { get; private set; }
 

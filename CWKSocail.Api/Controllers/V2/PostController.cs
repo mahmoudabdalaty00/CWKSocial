@@ -14,8 +14,7 @@ namespace CWKSocail.Api.Controllers.V2
 	[Route("{id}")]
 	public IActionResult GetById(int id)
 	{
-		var post = new Post { Id = id, Text = "HelloWorld2" };
-		return Ok(post);
+ 		return Ok( );
 	}
 
 }

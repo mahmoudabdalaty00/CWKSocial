@@ -13,8 +13,8 @@ namespace CWKSocail.Api.Controllers.V1
 		[Route("{id}")]
 		public IActionResult GetById(int id)
 		{
-			var post = new Post { Id = id, Text = "HelloWorld" };
-			return Ok(post);
+			 
+			return Ok();
 		}
 
 	}

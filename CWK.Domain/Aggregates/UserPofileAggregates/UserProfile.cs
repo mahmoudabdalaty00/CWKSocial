@@ -1,4 +1,6 @@
-﻿namespace CWK.Domain.Aggregates.UserPofile
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CWK.Domain.Aggregates.UserPofile
 {
 	public class UserProfile
 	{
@@ -7,6 +9,7 @@
         {
             
         }
+		 
         public Guid UserProfileId { get;private set; }
 
 		public string IdentityId { get; private set; }

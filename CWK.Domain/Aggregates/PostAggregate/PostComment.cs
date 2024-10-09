@@ -1,4 +1,6 @@
-﻿namespace CWK.Domain.Aggregates.Post
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CWK.Domain.Aggregates.Post
 {
 	public class PostComment
 	{
@@ -7,6 +9,8 @@
         {
             
         }
+
+		 
         public Guid CommentId { get; private set; }
 		public Guid PostId { get; private set; }
 		public Guid UserProfileId { get; private set; }

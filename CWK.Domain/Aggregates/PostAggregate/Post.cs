@@ -1,4 +1,5 @@
 ﻿using CWK.Domain.Aggregates.UserPofile;
+using System.ComponentModel.DataAnnotations;
 
 namespace CWK.Domain.Aggregates.Post
 {
@@ -15,6 +16,7 @@ namespace CWK.Domain.Aggregates.Post
 			 
 		}
 
+		 
 		public Guid PostId { get; private set; }
 		public Guid UserProfileId { get; private set; }
 		public UserProfile userProfile { get; private set; }
